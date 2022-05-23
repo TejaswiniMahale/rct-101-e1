@@ -47,7 +47,6 @@ const TaskApp = ({ data }) => {
         <div className={styles.taskBody}>
           <Tasks
             tasks={tasks}
-            handleRemoveTask={handleRemoveTask}
             handleUpdateTask={handleUpdateTask}
           />
         </div>
