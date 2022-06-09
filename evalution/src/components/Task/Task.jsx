@@ -42,14 +42,7 @@ const Task = ({ task, handleUpdateTask, handleRemoveTask }) => {
         </div>
       </div>
       <Counter taskId={task.id} count={task.count} updateCount={updateCount} />
-      {/* <button
-        className={styles.taskRemove}
-        data-cy="task-remove-button"
-        onClick={() => handleRemoveTask(task.id)}
-        title="Remover item"
-      >
-        {/* <img src={remove} alt="remove button text" /> */}
-      {/* </button> */} 
+      
     </li>
   );
 };
